@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tienda</title>
+
+
+<link rel="icon" href="img/logo.ico">
+
+<link rel="stylesheet" href="css/estilos.css">
+<body>
+
+    <link rel="shortcut icon" href="img/lpg logo.png">
+
+<script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="body">
+   
+    <header>
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>  
+        </div>
+    </header>
+
+    <div class="menu__side" id="menu_side"> 
+
+        <div class="name__page">
+
+     <P></P>   
+     
+     <P></P>
+
+ 
+ <i><img src="img/logo.webp" alt="Logo Fazt" class="logo" width="60" height="30" title="LOGO DE LA EMPRESA"> </i>
+            
+        </div>
+
+        <div class="options__menu">	
+
+            <P></P>   
+     
+     <P></P>
+
+
+        <a href="index.html">
+            <div class="option">
+
+                <i class="fas fa-home" title="Inicio"></i>
+                <h4>INICIO</h4>
+            </div>
+        </a>
+        <P></P>   
+ 
+        <P></P>
+        <a href="tienda.html" class="selected">
+            <div class="option">
+              
+
+                <i class="fa-solid fa-cart-shopping" title="TIENDA"></i>
+                <h4>TIENDA</h4>
+            </div>
+        </a>
+        <P></P>   
+ 
+        <P></P>
+        <a href="ubicacion.html">
+            <div class="option">
+               <i class="fa-solid fa-location-dot" title="UBICACIÓN"></i>
+                <h4>UBICACIÓN</h4>
+            </div>
+        </a>
+        <P></P>   
+ 
+        
+        <a href="tiempo_de_labor.html">
+            <div class="option">
+                <i class="fa-solid fa-calendar-days" title="TIEMPO DE LABOR"></i>
+                <h4>TIEMPO DE LABOR</h4>
+            </div>
+        </a>
+        <P></P>   
+ 
+        <P></P>
+        <a href="contacto_de_la_empresa.html">
+            <div class="option">
+                <i class="fa-solid fa-address-book" title="CONTACTO DE LA EMPRESA"></i>
+                <h4>CONTACTO DE LA EMPRESA</h4>
+            </div>
+        </a>
+        <P></P>   
+ 
+        <P></P>
+        <a href="imagen_de_la_empresa.html">
+            <div class="option">
+            <i class="fa-solid fa-camera" title="IMÁGEN DE LA EMPRESA"></i>
+                <h4>IMÁGEN DE LA EMPRESA</h4>
+            </div>
+        </a>
+        <P></P>   
+ 
+        <P></P>
+    </div>
+
+</div>
+
+<main>
+    
+    <div class="agregado">
+        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/prueba.css">
+        
+        <script src="js/prueba.js"></script>
+        <div class="page-nav">
+            <h1>Mi tienda</h1>
+            <button id="checkout" class="button-checkout" onclick="pay()">Pagar</button>
+
+        </div>
+        </div>
+    
+  
+<br> 
+<br>
+<br>
+<br>
+<br>
+
+    
+     <!--   Tarjetas-->
+    <div class="title-cards">
+        <h2>Mercancía que Ofrecemos</h2>
+    </div>
+    <div class="container-card">
+       
+
+    <div class="card">
+    <figure>
+        <img src="img/14 pro max.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Celulares</h3>
+        <p>14 pro max al mejor precio del mercado ,con 128GB .</p>
+        <h1>$63,890 </h1>
+            <button class="button-add" onclick="add('14 pro max', 63000)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/Iphone 11 normal.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3> Ventas de Celulares </h3>
+        <p> ¡Phone 11 normal ,con 64GB. </p>
+        <h1>$19,400</h1>
+            <button class="button-add" onclick="add('iPhone 11', 19400)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/11 pro max.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Celulares</h3>
+        <p> ¡Phone 11 pro max, con 256GB ,al mejor precio.</p>
+        <h1>$28,900</h1>
+            <button class="button-add" onclick="add('iPhone 11 pro max', 28900)">Agregar</button>
+    </div>
+    </div>
+    </div>
+     <!--Fin   Tarjetas-->
+
+
+
+    <!--   Tarjetas-->
+    <div class="title-cards">
+    
+    </div>
+    <div class="container-card">
+
+
+    <div class="card">
+    <figure>
+        <img src="img/8 plus.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Celulares</h3>
+        <p>¡Esta belleza nunca pasa de moda ,ven por el tuyo ya!, ¡Phone 8plus.</p>
+        <h1>$12,900</h1>
+            <button class="button-add" onclick="add('iPhone 8plus', 12900)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/cell one plus N20.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3> Ventas de Celulares</h3>
+        <p> ONE PLUS N20, no se puede quedar. </p>
+        <h1>$14,400</h1>
+            <button class="button-add" onclick="add('ONE PLUS N20', 14400)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/Cell tcl20XE.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Celulares</h3>
+        <p> Cell tcl 20XE al mejor precio.</p>
+        <h1>$9,990</h1>
+            <button class="button-add" onclick="add('TCL 20XE', 9990)">Agregar</button>
+    </div>
+    </div>
+    </div>
+    <!--Fin   Tarjetas-->
+
+
+
+    <!--   Tarjetas-->
+    <div class="title-cards">
+        
+    </div>
+    <div class="container-card">
+
+
+    <div class="card">
+    <figure>
+        <img src="img/LG q61.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Celulares</h3>
+        <p>LG k61 disponible desde.</p>
+        <h1>$9,900</h1>
+            <button class="button-add" onclick="add('LG K61', 9900)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/samsung galaxy a32.jpg">
+    </figure>
+    <div class="contenido-card">
+        <h3> Ventas de Celulares</h3>
+        <p> No dejes agotar el Samsung Galaxy A32. </p>
+        <h1>$16,500</h1>
+            <button class="button-add" onclick="add('Samsung Galaxy A32', 16500)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/Laptop lenovo.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Laptop</h3>
+        <p> Lenovo 11.6' pulg. con 320GB HDD, sencilla y bastante rápida.</p>
+        <h1>$23,000</h1>
+            <button class="button-add" onclick="add('Lenovo', 23000)">Agregar</button>
+    </div>
+    </div>
+    </div>
+    <!--Fin   Tarjetas-->
+
+
+
+
+    <!--   Tarjetas-->
+    <div class="title-cards">
+    
+    </div>
+    <div class="container-card">
+
+
+    <div class="card">
+    <figure>
+        <img src="img/Impresora epson M3170.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Impresoras</h3>
+        <p>Impresora epson M3170, esta te realiza fax, imprime, copia/escanea, impresion doble  cara out, impresion inalambrica, entre otras.</p>
+        <h1>$28,900</h1>
+            <button class="button-add" onclick="add('Impresora Epson M3170', 28900)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/Epson.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3> Ventas de Impresoras</h3>
+        <p> Te ofrecemos la EPSON L3210, esta imprime, impresion a color, a blanco y negro, impresion papel fotográfico. </p>
+        <h1>$14,900</h1>
+            <button class="button-add" onclick="add('Epson L3210', 14900)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/TCL smart 4k.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Televisiones</h3>
+        <p> TV TCL de 55' pulg. smart, te ofrecemos garantía.</p>
+        <h1>$33,400</h1>
+            <button class="button-add" onclick="add('Tv Tcl', 33400)">Agregar</button>
+    </div>
+    </div>
+    </div>
+    <!--Fin   Tarjetas-->
+        
+        
+    <!--   Tarjetas-->
+    <div class="title-cards">
+    
+    </div>
+    <div class="container-card">
+    
+    
+    <div class="card">
+    <figure>
+        <img src="img/samsung smart 4k.jpeg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Televisiones</h3>
+        <p>TV samsung smart de 65' pulg.</p>
+        <h1>$62,300</h1>
+            <button class="button-add" onclick="add('Tv Samsung Smart', 62300)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/hisense.jpg">
+    </figure>
+    <div class="contenido-card">
+        <h3> Ventas de Televisiones</h3>
+        <p>Te ofrecemos la TV HISENSE de 43'pulg. en su precio cómodo </p>
+        <h1>$22,500</h1>
+            <button class="button-add" onclick="add('Tv Hisense', 22500)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/roku.jpg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Televisiones</h3>
+        <p>Televisor ONN Smart de 55'pulg.</p>
+        <h1>$25,790</h1>
+            <button class="button-add" onclick="add('Tv ONN Smart', 25790)">Agregar</button>
+    </div>
+    </div>
+    </div>
+    <!--Fin   Tarjetas-->
+
+
+    <!--   Tarjetas-->
+    <div class="title-cards">
+    
+    </div>
+    <div class="container-card">
+    
+    
+    <div class="card">
+    <figure>
+        <img src="img/tablet amazon fire.jpg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Tablet</h3>
+        <p>Aprovecha de este dispositivo para tu niño, por tan solo.</p>
+        <h1>$6,890</h1>
+            <button class="button-add" onclick="add('Tablet Amazon Fire', 6890)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/pad air.jpg">
+    </figure>
+    <div class="contenido-card">
+        <h3> Ventas de Tablet</h3>
+        <p>Te ofrecemos la ¡Pad Air con su cover y protector de pantalla.</p>
+        <h1>$8,990</h1>
+            <button class="button-add" onclick="add('¡Pad Air', 8990)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+        <img src="img/tablet lenovo.jpg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Tablet</h3>
+        <p>Tablet M10 lenovo a su mejor precio...</p>
+        <h1>$7,490</h1>
+            <button class="button-add" onclick="add('Tablet M10 Lenovo', 7490)">Agregar</button>
+    </div>
+    </div>
+    </div>
+    <!--Fin   Tarjetas-->
+
+
+     <!--   Tarjetas-->
+     <div class="title-cards">
+    
+     </div>
+     <div class="container-card">
+     
+     
+     <div class="card">
+     <figure>
+         <img src="img/camara C3A.jpg">
+     </figure>
+     <div class="contenido-card">
+         <h3>Ventas de Cámaras</h3>
+         <p>Cámara C3A para la seguridad de tu casa, con detector de movimiento, visión 360°, visión nocturna, y otros.</p>
+         <h1>$6,900</h1>
+             <button class="button-add" onclick="add('Cámara C3A', 6900)">Agregar</button>
+     </div>
+     </div>
+     <div class="card">
+     <figure>
+         <img src="img/camara C3W pro.jpg">
+     </figure>
+     <div class="contenido-card">
+         <h3> Ventas de Cámaras</h3>
+         <p>Te ofrecemos la cámara C3W Pro, con su detector de movimiento, alerta de voz personal, defensa luz y sirena, visión nocturna color e inflarroja.</p>
+         <h1>$4,600</h1>
+             <button class="button-add" onclick="add('Cámara C3W PRO', 4600)">Agregar</button>
+     </div>
+     </div>
+     <div class="card">
+     <figure>
+         <img src="img/camara TY1.jpg">
+     </figure>
+     <div class="contenido-card">
+         <h3>Ventas de Cámaras</h3>
+         <p>Ven y llévate la cámara TY1 con su giro 340° y su inclinación de 55°, seguimiento inteligente, detector de movimiento, audio dos vías, modo sueño, y otros.</p>
+         <h1>$2,990</h1>
+             <button class="button-add" onclick="add('Cámara TY1', 2990)">Agregar</button>
+     </div>
+     </div>
+     </div>
+     <!--Fin   Tarjetas-->
+
+
+    <!--   Tarjetas-->
+    <div class="title-cards">
+    
+    </div>
+    <div class="container-card">
+          
+          
+    <div class="card">
+    <figure>
+         <img src="img/silla gaming likereal.jpg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Sillas Gaming</h3>
+        <p>Ven busca la Silla Gaming para mejor comodidad.</p>
+        <h1>$10,490</h1>
+            <button class="button-add" onclick="add('Silla gaming likereal', 10490)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+         <img src="img/silla gaming adio1.jpg">
+        </figure>
+        <div class="contenido-card">
+            <h3>Ventas de Sillas Gaming </h3>
+            <p>Tambien te podemos ofrecer la Silla Gaming Adio, con comodidad en el cuerp entero.</p>
+            <h1>$13,390</h1>
+            <button class="button-add" onclick="add('Silla Gaming Adio', 13390)">Agregar</button>
+    </div>
+    </div>
+
+    <div class="card">
+    <figure>
+         <img src="img/silla gaming2.jpg">
+        </figure>
+        <div class="contenido-card">
+            <h3>Ventas de Sillas Gaming</h3>
+            <p>Te brindamos la mejor calidad en Sillas Gaming.</p>
+            <h1>$8,690</h1>
+                <button class="button-add" onclick="add('Silla Gaming ', 8690)">Agregar</button>
+          </div>
+          </div>
+          </div>
+          <!--Fin   Tarjetas-->
+            
+
+
+        <!--   Tarjetas-->
+    <div class="title-cards">
+    
+    </div>
+    <div class="container-card">
+          
+          
+    <div class="card">
+    <figure>
+         <img src="img/sillacajero.jpg">
+    </figure>
+    <div class="contenido-card">
+        <h3>Ventas de Sillas Adio</h3>
+        <p>Ven busca esta hermosa silla Para que trabajes más cómodo.</p>
+        <h1>$6,800</h1>
+            <button class="button-add" onclick="add('Silla Adio Cajero', 6800)">Agregar</button>
+    </div>
+    </div>
+    <div class="card">
+    <figure>
+         <img src="img/sillaejecutiva.jpg">
+        </figure>
+        <div class="contenido-card">
+            <h3>Ventas de Sillas Adio </h3>
+            <p>Tambien te podemos ofrecer la silla ejecutiva en su mejor precio.</p>
+            <h1>$7,080</h1>
+            <button class="button-add" onclick="add('Silla Adio Ejecutiva', 7080)">Agregar</button>
+    </div>
+    </div>
+
+    <div class="card">
+    <figure>
+         <img src="img/sillavisita.jpg">
+        </figure>
+        <div class="contenido-card">
+            <h3>Ventas de Sillas Adio</h3>
+            <p>Te brindamos la mejor calidad en Sillas Adio, ven por la tuya.</p>
+            <h1>$2,190</h1>
+                <button class="button-add" onclick="add('Silla Adio Visita ', 2190)">Agregar</button>
+          </div>
+          </div>
+          </div>
+          <!--Fin   Tarjetas-->  
+  
+
+</main>
+
+<script src="js/script.js"></script>
+    
+</body>
+
+</html>
